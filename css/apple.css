@@ -1,0 +1,597 @@
+@font-face {
+font-family:'Myriad Set Pro';
+font-style:normal;
+font-weight:100;
+src:local('Myriad Set Pro'), 
+url("../fonts/myriad-set-pro_thin.woff") format("woff");
+/* Copyright (c) 1992 Adobe Systems Incorporated. All Rights Reserved. Myriad is a trademark of Adobe Systems Incorporated. */
+}
+
+article, aside, footer, header, nav, main, section, summary, details, hgroup, figure, figcaption {
+  display: block;
+}
+body{
+	font-family:"Myriad Set Pro","微软雅黑";
+	margin:0;
+}
+ul,li,h1,h2,h3,h4,h5,h6,p{
+	margin:0;
+	padding: 0;
+	font-weight: normal;
+	list-style: none;
+}
+a{
+	color:black;
+	text-decoration: none;
+}
+.daohang{
+	text-align: justify;
+}
+.a{
+	display:inline-block;
+	width: 100%;
+	height: 0px;
+}
+.test{
+	width: 1000px;
+	border:1px solid #ccc;
+}
+.test .item{
+	width: 200px;
+	height: 100px;
+	border:1px solid #ccc;
+	float: left;
+}
+.clearfix:after{
+   content:"";
+   display: block;
+   clear:both;
+   font-size: 0px;
+   /*其他浏览器after会有三个默认属性，这是清除默认属性解决兼容问题*/
+   line-height:0;
+   height: 0;
+}
+.daohang{
+	background:rgba(0,0,0,0.8);
+	position: relative;
+	padding-left: 22px;
+	z-index: 3;
+}
+.daohang a{
+	color: #fff;
+	display: block;
+	width: 100%;
+}
+.daohang #bigurl li{
+	display: inline-block;
+	width: 70px;
+	height: 44px;
+}
+.daohang #bigurl li:hover{
+	/*background-color: rgba(0,0,0,0.2);*/
+	 opacity: 0.4; 
+}
+#bigurl{
+	text-align: justify;
+	height: 44px;
+	min-width: 5px;
+	max-width: 1000px;
+	line-height: 40px;
+	margin:0 auto;
+
+}
+#bigurl:after{
+	content: "";
+	display: inline-block;
+	width: 100%;
+	height: 0;
+	font-size: 0;
+	line-height: 0;
+}
+.daohang ul li a span{
+	display: none;
+}
+#smallurl{
+	text-align: justify;
+	height: 48px;
+	line-height: 48px;
+	margin:0 auto;
+    z-index: 5;
+    position: relative;
+    display: none;
+}
+
+
+
+
+
+
+
+.list{
+	width: 48px;
+	height: 48px;
+	position: absolute;
+	left:0;
+	top:0;
+}
+.list .list-1{
+	width: 20px;
+	height: 1px;
+	background: #fff;
+	margin:0 auto;
+	margin-top:18px;
+}
+.list .list-2{
+	width: 20px;
+	height: 1px;
+	background: #fff;
+	margin:0 auto;
+	margin-top: 10px;
+}
+#smallurl .logo{
+	width:40px;
+	height: 48px;
+	background: url(../image/apple_small.svg) no-repeat; 
+    position: absolute;
+	left:50%;
+	top:0;
+    margin-left: -20px;
+}
+#smallurl .bag{
+	width: 50px;
+	height: 48px;
+	background: url(../image/shoutidai_small.svg) no-repeat;
+	position: absolute;
+	top:0;
+	right:0;
+}
+
+.biglogo{background: url(../image/apple_small.svg) no-repeat;width: 2.5em;height: 44px;}
+.mac{background: url(../image/wac.svg) no-repeat;width: 3em;height: 44px;}
+.ipad{background: url(../image/ipad.svg) no-repeat;width: 2.928em;height: 44px;}
+.iphone{background: url(../image/iphone.svg) no-repeat;width: 3.938em;height: 44px;}
+.watch{background: url(../image/watch.svg) no-repeat;width: 3.688em;height: 44px;}
+.tv{background: url(../image/tv.svg) no-repeat;width: 2.375em;height: 44px;}
+.music{background: url(../image/music.svg) no-repeat;width: 3.5em;height: 44px;}
+.support{background: url(../image/suppart.svg) no-repeat;width: 4.438em;height: 44px;}
+.zoom{background: url(../image/zoom.svg) no-repeat;width: 2.5em;height: 44px;}
+.daizi{background: url(../image/shoutidai.svg) no-repeat;width:2.375em;height: 44px;}
+.hero{height: 78%; min-height: 650px; position: relative;z-index: 2; border-bottom: 2px solid rgb(255, 255, 255); height: 78%; margin-top: -46px; min-height: 650px;  overflow: hidden;
+	background-color: rgb(255, 255, 255);  overflow: hidden;}
+article{display:block;width: 100%;text-align: justify;
+	position: relative;}
+
+
+
+.tu{
+	width:100%;height: 650px;margin:0 auto;text-align: justify;
+}
+.tu{
+	text-align: justify;
+	margin:0 auto;
+	width: 100%;
+	height: 606px;
+	line-height: 606px;
+}
+.nv-tv{
+	text-align: justify;
+	height:330px;								
+	background:url(../image/home_hero_apple_tv_evergreen_medium.jpg) no-repeat top center;
+	margin:0 auto; 
+	position: relative;
+
+}
+/*轮播的开始*/
+.lunbotu-1{
+	text-align: justify;
+	height:100%;	
+	background:url(../image/home_hero_ssn_large.png) no-repeat top center;
+	margin:0 auto; 
+	position: relative;
+}
+.lunbotu-2{
+	text-align: justify;
+	height: 100%;
+	background: url(../image/);
+}
+
+
+.slides-1{
+	height: 65%;
+	min-height: 650px;
+	width: 100%;
+	box-sizing:border-box;
+	position: relative;
+	/*overflow: hidden;*/
+}
+.slide-1{
+	position: absolute;
+	left:0;
+	top:0;
+	background: #fff;
+    width:100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing:border-box;
+    font-size: 5em;
+    text-align: center;
+    line-height: 500px;
+    color: #ccc;
+    transition:transform 0.625s cubic-bezier(1,0,0,1);
+}
+.xiaodian{
+	padding: 0;
+	position: absolute;
+	width: 300px;
+	height: 40px;
+	left:50%;
+	bottom:20px;
+	margin-left: -28px;
+}
+
+.xiaodian li{
+	display: inline-block;
+	width:10px;
+	height:10px;
+	border-radius: 50%;
+	background:#999999;
+}
+
+
+.xiaodian li:nth-child(2){
+	margin:0 10px;
+}
+.xiaodian .current-dian{
+	background: rgba(1,1,1,0);
+	border: 1px solid #08c;
+}
+
+
+/*轮播的结束*/
+
+
+
+
+.inner{
+	width: 100%;
+	height: 170px;
+	text-align: justify;
+	line-height: 170px;
+	margin:0 auto;
+}
+.apple-tv{
+	text-align: justify;
+	height: 50px;
+	line-height: 50px;
+	margin:0 auto;
+	width: 136px;
+	background:url(../image/logo_appletv_medium.png) no-repeat;
+    background-position: center;
+	background-size: 136px 50px;
+	text-indent: -20000em; 
+	margin-right: auto; 
+	margin-bottom: 0.25em;
+}
+.inner h2{
+	font-size: 42px;
+    line-height: 1.1429;
+    font-weight: 200;
+    color:#333;
+    margin-bottom: 0.5em;
+    text-align: center;
+} 
+.links{
+	  text-align: center;
+	  margin-top: 0; 
+	  font-size: 20px;
+      line-height: 1.4;
+      font-weight: 200;
+      margin: 0.75em 0 0;
+     list-style: none;
+      color: #08c;
+}
+.links .slide-link-a{
+    text-align: center;
+    display: inline-block;
+    margin-left: 0.3em;
+    margin-right: 0.35em;
+    margin-bottom: .5em;
+}
+.links .slide-link-a a{
+	white-space: nowrap;
+    text-decoration: none;
+    display: inline-block;
+    color: #08c;
+}
+.links .slide-link-a a:hover{
+	color:#000;
+}
+.datnav{
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    right: 0;
+    background: transparent;
+    height: 40px;
+    text-align: center;
+    z-index: 5;
+}
+.datnav ul{
+	display: inline-block;
+	list-style: none;
+	margin:0;
+}
+.datnav li{
+	list-style: none;
+	margin:0 10px;
+	width: 8px;
+	height: 8px;
+	float: left;
+	position: relative;
+}
+.datnav .datnav-item{
+    top: 0;
+    left: 0;
+    width: 8px;
+    height: 8px;
+    outline: none;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #999;
+    font: 0/0 a;
+    color: transparent;
+}
+.pd{
+	margin-top: 20px;
+}
+.col .col-section label h4{
+	color: #000;
+	font-weight: bold;
+	font-size: 12px;
+	position: relative;
+}
+.col .col-section{
+	position: relative;
+}
+.promo li{
+	width: 25%;
+	height: 200px;
+	float:left;
+}
+.promo a{
+	height: 100%;
+	display:block;
+    background-size:640px 200px;
+    background-position: center center;
+	border-right: 2px solid #fff;
+    font-size: 0;
+	font-height:0;
+	font-family: a;
+}
+.promo-watch{
+	background: url(../image/promo_holiday_watch_large.jpg);
+}
+.promo-iphone6s{
+	background: url(../image/promo_startsomethingnew_iphone6s_large.jpg);
+}
+.promo-ios-preview{
+	background: url(../image/promo_ios93preview_large.jpg);
+}
+.promo-macbook{
+	background: url(../image/promo_macbook_large.jpg);
+}
+.globalfooter{
+	font-size: 12px;
+	line-height: 1.66;
+	background: #f2f2f2;
+	color:#666;
+}
+.globalfooter .gf-content{
+	margin:0 auto;
+	max-width: 980px;
+	padding: 0 22px;
+}
+.globalfooter .gf-content nav{
+   padding-top: 20px;
+}
+.globalfooter .gf-content .col{
+	width: 20%;
+	float: left;
+}
+.globalfooter .col-section a{
+	display: block;
+}
+.globalfooter .col-section a:hover{
+   text-decoration: underline;
+}
+.ac-gf-footer{
+	border-top: none;
+	color: #999;
+	padding: 20px 0 24px;
+}
+.ac-gf-footer-shop{
+    border-bottom: 1px solid #e3e3e3;
+    max-height: 9999px;
+    margin-bottom: 6px;
+    padding-bottom: 5px;
+}
+.ac-gf-footer-shop a{
+	color:#08c;
+	text-decoration: none;
+
+}
+.ac-gf-footer-shop .nowrap{
+    white-space: nowrap;
+}
+.ac-gf-footer-locale{
+	float: right;
+    white-space: nowrap;
+}
+.ac-gf-footer-locale-link{
+	display: inline;
+}
+.ac-gf-footer-locale-flag{
+	background-repeat: no-repeat;
+    background-size: 16px 16px;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url("../image/16.png");
+    cursor: pointer;
+    float: left;
+    margin-top: 1px;
+    padding-right: 5px;
+}
+.ac-gf-footer-legal-copyright{
+	max-height: 9999px;
+    margin-right: 26px;
+    float: left;
+}
+.ac-gf-footer-legal-links{
+	margin-right: 26px;
+    float: left;
+}
+.ac-gf-footer-legal-link{
+	border-right: 1px solid #d6d6d6;
+    margin-right: 10px;
+    padding-right: 12px;
+    white-space: nowrap;
+}
+
+/*************顶部两条线的下拉框*************/
+	#input{
+		display: none;
+	}
+	#label{
+		display: block;
+		width: 48px;
+		height: 48px;
+	}
+	label p:first-of-type{
+		position: absolute;
+		width: 22px;
+		border-bottom: 2px solid #fff;
+		top:18px;
+		left:22px;
+		transition:all 0.6s ease;
+	}
+	label p:nth-last-of-type(1){
+		position: absolute;
+		left: 22px;
+		top:28px;
+		width: 22px;
+		border-bottom: 2px solid #fff;
+		transition:all 0.6s ease;
+	}
+	#xiala{
+		box-sizing:border-box;
+		display: none;
+		border:1px solid black;
+		width: 100%;
+		background: #000;
+		position: absolute;
+		left: 0;
+		top:48px;
+		padding: 0 48px;
+		z-index: 1000;
+	}
+	#xiala:hover{
+		z-index: 3;
+		opacity: 1;
+	}
+	#xiala li{
+		background:black;
+		color: #fff;
+		border-bottom: 1px solid #555;
+		height: 47px;
+		width: 100%;
+		line-height: 47px;
+	}
+
+	#input:checked+.daohang #xiala{
+		display:block;
+	}
+	#input:checked+.daohang #label p:first-child{
+		transition-delay:0.2s;
+		transform:rotateZ(45deg)  translateX(6px)  translateY(7px);
+	}
+
+	#input:checked+.daohang #label p:last-child{
+		transition-delay:0.2s;
+		transform:rotateZ(-45deg);
+	} 
+
+@media(max-width: 1068px)
+{
+	.promo li{width: 50%}
+	.promo-watch{
+	 background: url(../image/promo_holiday_watch_medium.jpg);
+     }
+    .promo-iphone6s{
+	 background: url(../image/promo_startsomethingnew_iphone6s_medium.jpg);
+    }
+    .promo-ios-preview{
+	    background: url(../image/promo_ios93preview_medium.jpg);
+    }
+    .promo-macbook{
+	    background: url(../image/promo_macbook_medium.jpg);
+    }
+
+}
+@media(max-width: 735px)
+{
+	#bigurl{display: none;}
+	#smallurl{display: block;}
+	.promo li{width: 100%;border-bottom: 1px solid #fff;}
+	.promo-watch{
+	 background: url(../image/promo_holiday_watch_small.jpg);
+     }
+    .promo-iphone6s{
+	 background: url(../image/promo_startsomethingnew_iphone6s_small.jpg);
+    }
+    .promo-ios-preview{
+	    background: url(../image/promo_ios93preview_small.jpg);
+    }
+    .promo-macbook{
+	    background: url(../image/promo_macbook_small.jpg);
+    }
+    .globalfooter .gf-content{
+	    margin:0 auto;
+	    min-width: 5px;
+	    padding: 0 16px;
+    }
+    .globalfooter .gf-content .col{
+        width: 100%;
+	  }
+	   .globalfooter .gf-content .col .col-section{
+	  	position: relative;
+	  	border-bottom:1px solid #ccc;
+	  }
+  
+	   .col .col-section label h4:after{
+	   	content: "+";float: right;margin-right: 10px; 
+	   } 
+	    .globalfooter .gf-content .col .col-section ul{
+	    	visibility: hidden;
+	    	position: absolute;
+	    }
+	    .ac-gf-footer-locale{
+	    	float: left;
+	    	width: 100%;
+	    }
+	    .pd{
+	    	margin: 0;
+	    }
+	    .col .col-section label h4{
+	    	height: 38px;
+	    	line-height: 38px;
+	        font-size: 14px;
+	        color: rgb(51,51,51);
+	        font-weight:600;
+	    }
+
+
+
+
+}

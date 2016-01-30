@@ -1,0 +1,55 @@
+/*.test{
+	width: 300px;
+	height: 300px;
+	background:#000;
+	border:1px solid black;
+	margin:180px auto;*/
+    /*旋转*/
+    /*transition:all 0.6s ease;*/
+    /*-webkit-transform:rotateZ(45deg);*/
+/*}*/
+/* .test:hover{
+	以某一位置为中心旋转
+	transform-origin:center center;
+	旋转
+	transform:rotateZ(360deg);
+	放大
+	transform:scale(1.2,1.2);
+	旋转放大
+	transform:scale(1.2,1.2) rotateY(360deg);
+	位移
+	transform:translate3d(100px,200px,0);
+	transform:translateY(100px);
+	斜切
+	transform:skew(15deg,25deg);
+}; */
+/*.test{width: 300px;
+	height: 300px;
+	background:#000;
+	border:1px solid black;
+	margin:180px auto;
+	animation-name:ab;
+	animation-duration:2s;
+}
+@keyframes ab{
+  0%{
+  	opacity:0
+  }
+  100%{
+  	opacity:1;
+  }
+}*/
+.test{
+	width: 200px;
+	height: 200px;
+	background: #ff6700;
+	margin:200px auto;
+	animation-name:ab;
+	animation-duration:2s;
+}@keyframes ab{
+	0%{opacity:1;}
+	100%{opacity:0;}
+}
+.a+h2{
+	color: green;
+}
